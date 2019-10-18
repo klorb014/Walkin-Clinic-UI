@@ -28,6 +28,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         startActivityForResult (intent,0);
     }
 
+    public void OnLogIn(View view){
+        Intent intent = new Intent(getApplicationContext(), WelcomeScreenActivity.class);
+        startActivityForResult (intent,0);
+    }
+
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 

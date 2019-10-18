@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Walkin-Clinic-UI</string>
     <string name="Login_page">Login</string>
-    <string name="username_text">Username</string>
-    <string name="password_text">Password</string>
+    <string name="username_text">Enter Your Username</string>
+    <string name="password_text">Enter Your Password</string>
     <string name="username_field" />
     <string name="login_button">LOG IN</string>
     <string name="title_activity_create_account">CreateAccountActivity</string>
@@ -17,8 +17,21 @@
     <string name="account_type_label">Select an Account Type</string>
 
     <string-array name="accounts">
-        <item>admin</item>
         <item>employee</item>
         <item>patient</item>
     </string-array>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="email_hint">Email</string>
+    <string name="elcome_screen_title">WELCOME!</string>
+    <string name="logout_button">Log Out</string>
 </resources>

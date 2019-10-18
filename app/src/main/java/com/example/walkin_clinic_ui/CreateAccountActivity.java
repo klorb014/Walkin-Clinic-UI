@@ -1,5 +1,6 @@
 package com.example.walkin_clinic_ui;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -11,6 +12,7 @@ import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.Spinner;
 
 public class CreateAccountActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener{
@@ -41,11 +43,22 @@ public class CreateAccountActivity extends AppCompatActivity implements AdapterV
 
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-        
+
     }
 
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
 
     }
+
+
+    public void onCreateAccount(View view){
+
+        Intent returnIntent = new Intent();
+
+        setResult(RESULT_OK, returnIntent);
+
+        finish();
+    }
+
 }
