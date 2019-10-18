@@ -10,7 +10,7 @@
     <string name="email_field">Enter your email account</string>
     <string name="enter_email_field">Email</string>
     <string name="username_label">Enter a username</string>
-    <string name="password_label">Enter a password</string>
+    <string name="password_label">Enter a Password (Must contain a minimum of 10 characters, 1 upper case letter, 1 lower case letter, and 1 number.</string>
     <string name="confirm_password_label">Confirm you password</string>
     <string name="create_account_button">Create Account</string>
     <string name="account_page_button">Create Account</string>
@@ -34,4 +34,11 @@
     <string name="email_hint">Email</string>
     <string name="elcome_screen_title">WELCOME!</string>
     <string name="logout_button">Log Out</string>
+    <string name="loginUsernameHint">Enter your username</string>
+    <string name="loginPasswordHint">Enter your password</string>
+    <string name="createEmailHint">Enter your email address</string>
+    <string name="createUsernameHint">Create a username</string>
+    <string name="createPasswordHint">Create a password</string>
+    <string name="createPassword2Hint">Enter your password again</string>
+
 </resources>
